@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Knewave&family=Mogra&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #f5cdfa;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.navbar-menu a:hover {
+  text-shadow: 1px 1px rgb(191, 110, 199);
+  background-color: rgba(137, 43, 226, 0.295);
+  border: 1px lightpink ridge;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 1px 1px rgba(128, 0, 128, 0.288);
+}
+div > header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  margin: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.search {
+  background: white;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  border: none;
+}
+
+.search-bar {
+  display: flex;
+
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 9px;
+  color: rgba(128, 128, 128, 0.411);
+}
+
+.bxs-cart-alt {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 5px;
+}
+
+.word {
+  font-weight: 100;
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  margin: 100px;
+  margin-top: -50px;
+}
+
+b {
+  color: rgb(235, 103, 191);
+  font-family: "DynaPuff", system-ui;
+  font-weight: 250;
+  text-shadow: 1px 1px white;
+}
+
+.imager {
+  width: 100vw;
+  height: auto;
+}
+
+.paragraph {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+.logo {
+  font-size: 25px;
+  font-family: "DynaPuff", system-ui;
+  font-weight: 250;
+  text-shadow: 1px 1px white;
+  margin-left: 50px;
+}
+
+.active {
+  background-color: rgba(173, 93, 248, 0.288);
+  border: 1px lightpink ridge;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.288);
+}
+footer {
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+/* ----------------Mobile screen-----------------  */
+@media screen and (max-width: 425px) {
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .navbar-menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    text-shadow: 1px 2px white;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .word {
+    font-weight: 100;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    margin-top: -50px;
+  }
+
+  b {
+    color: rgb(235, 103, 191);
+    font-family: "DynaPuff", system-ui;
+    font-weight: 250;
+    text-shadow: 1px 1px white;
+  }
+  button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 10px;
+    color: rgba(128, 128, 128, 0.411);
+  }
+  .active {
+    background-color: rgba(173, 93, 248, 0.288);
+    border: 1px lightpink ridge;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.288);
+  }
+}
